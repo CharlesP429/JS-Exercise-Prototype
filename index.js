@@ -18,7 +18,8 @@ function Airplane(name) {
   Airplane.prototype.land = function () {
     this.isFlying = false;
   };
-  
+  console.log(this.isFlying);
+  console.log(Airplane, land)
   
   /*
   // 👇 COMPLETE YOUR WORK BELOW 👇
@@ -40,10 +41,12 @@ function Airplane(name) {
   */
   
  function Person() {
-    
-  }
- 
- 
+    name: 'Charles',
+    age: '30';    
+  };
+
+ console.log(.eat('someFood'));
+ console.log(.poop());
 
   
   
