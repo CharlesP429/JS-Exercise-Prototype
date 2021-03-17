@@ -18,7 +18,8 @@ function Airplane(name) {
   Airplane.prototype.land = function () {
     this.isFlying = false;
   };
-  
+  console.log(this.isFlying);
+  console.log(Airplane, land)
   
   /*
   // 👇 COMPLETE YOUR WORK BELOW 👇
@@ -40,10 +41,12 @@ function Airplane(name) {
   */
   
  function Person() {
-    
-  }
- 
- 
+    name: 'Charles',
+    age: '30';    
+  };
+
+ console.log(.eat('someFood'));
+ console.log(.poop());
 
   
   
@@ -64,9 +67,13 @@ function Airplane(name) {
   */
   
  function Car() {
-    
-  }
+    model: 'humvee',
+    milesPerGallon: '4',
+  };
   
+  Car.tank(0);
+  Car.odometer(0);
+  Car.fill(gallons);
   
   /*
     TASK 3
@@ -76,17 +83,19 @@ function Airplane(name) {
           + Should return a string "Playing with x", x being the favorite toy.
   */
  function Baby() {
-   
-  }
+   name: 'Oliver',
+   age: '.25',
+   favoriteToy: 'leftFoot'
+  };
  
   
   /* 
     TASK 4
     In your own words explain the four principles for the "this" keyword below:
-    1. 
-    2. 
-    3. 
-    4. 
+    1. default refers to the global object
+    2. implicit refers to the object on the left of the dot when the function is called
+    3. explicit uses call, apply or bind to set a certain value
+    4. new binding changes 'this' to a new value
   */
   
   
