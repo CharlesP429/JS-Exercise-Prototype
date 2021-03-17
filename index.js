@@ -67,9 +67,13 @@ function Airplane(name) {
   */
   
  function Car() {
-    
-  }
+    model: 'humvee',
+    milesPerGallon: '4',
+  };
   
+  Car.tank(0);
+  Car.odometer(0);
+  Car.fill(gallons);
   
   /*
     TASK 3
@@ -79,8 +83,10 @@ function Airplane(name) {
           + Should return a string "Playing with x", x being the favorite toy.
   */
  function Baby() {
-   
-  }
+   name: 'Oliver',
+   age: '.25',
+   favoriteToy: 'leftFoot'
+  };
  
   
   /* 
