@@ -92,10 +92,10 @@ function Airplane(name) {
   /* 
     TASK 4
     In your own words explain the four principles for the "this" keyword below:
-    1. 
-    2. 
-    3. 
-    4. 
+    1. default refers to the global object
+    2. implicit refers to the object on the left of the dot when the function is called
+    3. explicit uses call, apply or bind to set a certain value
+    4. new binding changes 'this' to a new value
   */
   
   
